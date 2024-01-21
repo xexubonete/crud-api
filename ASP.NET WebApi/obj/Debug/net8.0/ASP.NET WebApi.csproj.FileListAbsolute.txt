@@ -1,0 +1,156 @@
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\bin\Debug\net8.0\appsettings.json
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\bin\Debug\net8.0\ASP.NET WebApi.exe
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\bin\Debug\net8.0\ASP.NET WebApi.deps.json
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\bin\Debug\net8.0\ASP.NET WebApi.runtimeconfig.json
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\bin\Debug\net8.0\ASP.NET WebApi.dll
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\bin\Debug\net8.0\ASP.NET WebApi.pdb
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\bin\Debug\net8.0\ASP.NET WebApi.xml
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\obj\Debug\net8.0\ASP.NET WebApi.csproj.AssemblyReference.cache
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\obj\Debug\net8.0\ASP.NET WebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\obj\Debug\net8.0\ASP.NET WebApi.AssemblyInfoInputs.cache
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\obj\Debug\net8.0\ASP.NET WebApi.AssemblyInfo.cs
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\obj\Debug\net8.0\ASP.NET WebApi.csproj.CoreCompileInputs.cache
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\obj\Debug\net8.0\ASP.NET WebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\obj\Debug\net8.0\ASP.NET WebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\obj\Debug\net8.0\staticwebassets\msbuild.ASP.NET WebApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\obj\Debug\net8.0\staticwebassets\msbuild.build.ASP.NET WebApi.props
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ASP.NET WebApi.props
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ASP.NET WebApi.props
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\obj\Debug\net8.0\scopedcss\bundle\ASP.NET WebApi.styles.css
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\obj\Debug\net8.0\ASP.NET WebApi.csproj.CopyComplete
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\obj\Debug\net8.0\ASP.NET WebApi.dll
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\obj\Debug\net8.0\refint\ASP.NET WebApi.dll
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\obj\Debug\net8.0\ASP.NET WebApi.xml
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\obj\Debug\net8.0\ASP.NET WebApi.pdb
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\obj\Debug\net8.0\ASP.NET WebApi.genruntimeconfig.cache
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\obj\Debug\net8.0\ref\ASP.NET WebApi.dll
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\bin\Debug\net8.0\selenium-manager\linux\selenium-manager
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\bin\Debug\net8.0\selenium-manager\macos\selenium-manager
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\bin\Debug\net8.0\selenium-manager\windows\selenium-manager.exe
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\xexub\Documents\Proyectos APIs\ASP.NET WebApi\bin\Debug\net8.0\WebDriver.dll
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\bin\Debug\net8.0\appsettings.json
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\bin\Debug\net8.0\selenium-manager\linux\selenium-manager
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\bin\Debug\net8.0\selenium-manager\macos\selenium-manager
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\bin\Debug\net8.0\selenium-manager\windows\selenium-manager.exe
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\bin\Debug\net8.0\ASP.NET WebApi.exe
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\bin\Debug\net8.0\ASP.NET WebApi.deps.json
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\bin\Debug\net8.0\ASP.NET WebApi.runtimeconfig.json
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\bin\Debug\net8.0\ASP.NET WebApi.dll
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\bin\Debug\net8.0\ASP.NET WebApi.pdb
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\bin\Debug\net8.0\ASP.NET WebApi.xml
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\bin\Debug\net8.0\WebDriver.dll
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\obj\Debug\net8.0\ASP.NET WebApi.csproj.AssemblyReference.cache
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\obj\Debug\net8.0\ASP.NET WebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\obj\Debug\net8.0\ASP.NET WebApi.AssemblyInfoInputs.cache
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\obj\Debug\net8.0\ASP.NET WebApi.AssemblyInfo.cs
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\obj\Debug\net8.0\ASP.NET WebApi.csproj.CoreCompileInputs.cache
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\obj\Debug\net8.0\ASP.NET WebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\obj\Debug\net8.0\ASP.NET WebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\obj\Debug\net8.0\staticwebassets\msbuild.ASP.NET WebApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\obj\Debug\net8.0\staticwebassets\msbuild.build.ASP.NET WebApi.props
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ASP.NET WebApi.props
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ASP.NET WebApi.props
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\obj\Debug\net8.0\scopedcss\bundle\ASP.NET WebApi.styles.css
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\obj\Debug\net8.0\ASP.NET WebApi.csproj.CopyComplete
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\obj\Debug\net8.0\ASP.NET WebApi.dll
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\obj\Debug\net8.0\refint\ASP.NET WebApi.dll
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\obj\Debug\net8.0\ASP.NET WebApi.xml
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\obj\Debug\net8.0\ASP.NET WebApi.pdb
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\obj\Debug\net8.0\ASP.NET WebApi.genruntimeconfig.cache
+C:\Users\xexub\Documents\Proyectos APIs\CRUD_WebApi\ASP.NET WebApi\obj\Debug\net8.0\ref\ASP.NET WebApi.dll

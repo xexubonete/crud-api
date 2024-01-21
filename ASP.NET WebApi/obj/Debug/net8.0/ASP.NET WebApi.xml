@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ASP.NET WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:ASP.NET_WebApi.Controllers.ClientController.CreateClient(ASP.NET_WebApi.Entities.Client)">
+            <summary>Creates the client.</summary>
+            <param name="client">The client.</param>
+            <returns>
+              <br />
+            </returns>
+        </member>
+        <member name="M:ASP.NET_WebApi.Controllers.ClientController.GetAllClients">
+            <summary>Gets all clients.</summary>
+            <returns>
+              <br />
+            </returns>
+        </member>
+        <member name="M:ASP.NET_WebApi.Controllers.ClientController.GetClientById(System.Guid)">
+            <summary>Gets the client by identifier.</summary>
+            <param name="id">The identifier.</param>
+            <returns>
+              <br />
+            </returns>
+        </member>
+        <member name="M:ASP.NET_WebApi.Controllers.ClientController.GetClientByName(System.String)">
+            <summary>Gets the name of the client by.</summary>
+            <param name="name">The name.</param>
+            <returns>
+              <br />
+            </returns>
+        </member>
+        <member name="M:ASP.NET_WebApi.Controllers.ClientController.UpdateClient(ASP.NET_WebApi.Entities.Client)">
+            <summary>Updates the client.</summary>
+            <param name="updateClient">The update client.</param>
+            <returns>
+              <br />
+            </returns>
+        </member>
+        <member name="M:ASP.NET_WebApi.Controllers.ClientController.DeleteClient(System.Guid)">
+            <summary>Deletes the client.</summary>
+            <param name="id">The identifier.</param>
+            <returns>
+              <br />
+            </returns>
+        </member>
+        <member name="M:ASP.NET_WebApi.Interfaces.IClientRepository.CreateClient(ASP.NET_WebApi.Entities.Client)">
+            <summary>Creates the client.</summary>
+            <param name="newClient">The new client.</param>
+            <returns>
+              <br />
+            </returns>
+        </member>
+        <member name="M:ASP.NET_WebApi.Interfaces.IClientRepository.GetAllClients">
+            <summary>Gets all clients.</summary>
+            <returns>
+              <br />
+            </returns>
+        </member>
+        <member name="M:ASP.NET_WebApi.Interfaces.IClientRepository.GetClientById(System.Guid)">
+            <summary>Gets the client by identifier.</summary>
+            <param name="id">The identifier.</param>
+            <returns>
+              <br />
+            </returns>
+        </member>
+        <member name="M:ASP.NET_WebApi.Interfaces.IClientRepository.GetClientByName(System.String)">
+            <summary>Gets the name of the client by.</summary>
+            <param name="name">The name.</param>
+            <returns>
+              <br />
+            </returns>
+        </member>
+        <member name="M:ASP.NET_WebApi.Interfaces.IClientRepository.UpdateClientById(ASP.NET_WebApi.Entities.Client)">
+            <summary>Updates the client by identifier.</summary>
+            <param name="updateClient">The update client.</param>
+            <returns>
+              <br />
+            </returns>
+        </member>
+        <member name="M:ASP.NET_WebApi.Interfaces.IClientRepository.DeleteClientById(System.Guid)">
+            <summary>Deletes the client by identifier.</summary>
+            <param name="id">The identifier.</param>
+            <returns>
+              <br />
+            </returns>
+        </member>
+        <member name="M:ASP.NET_WebApi.Repositories.ClientRepository.CreateClient(ASP.NET_WebApi.Entities.Client)">
+            <summary>Creates the client.</summary>
+            <param name="newClient">The new client.</param>
+            <returns>
+              <br />
+            </returns>
+        </member>
+        <member name="M:ASP.NET_WebApi.Repositories.ClientRepository.GetAllClients">
+            <summary>Gets all clients.</summary>
+            <returns>
+              <br />
+            </returns>
+        </member>
+        <member name="M:ASP.NET_WebApi.Repositories.ClientRepository.GetClientById(System.Guid)">
+            <summary>Gets the client by identifier.</summary>
+            <param name="id">The identifier.</param>
+            <returns>
+              <br />
+            </returns>
+        </member>
+        <member name="M:ASP.NET_WebApi.Repositories.ClientRepository.GetClientByName(System.String)">
+            <summary>Gets the name of the client by.</summary>
+            <param name="name">The name.</param>
+            <returns>
+              <br />
+            </returns>
+        </member>
+        <member name="M:ASP.NET_WebApi.Repositories.ClientRepository.UpdateClientById(ASP.NET_WebApi.Entities.Client)">
+            <summary>Updates the client by identifier.</summary>
+            <param name="updateClient">The update client.</param>
+            <returns>
+              <br />
+            </returns>
+        </member>
+        <member name="M:ASP.NET_WebApi.Repositories.ClientRepository.DeleteClientById(System.Guid)">
+            <summary>Deletes the client by identifier.</summary>
+            <param name="id">The identifier.</param>
+            <returns>
+              <br />
+            </returns>
+        </member>
+    </members>
+</doc>
