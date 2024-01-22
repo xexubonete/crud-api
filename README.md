@@ -59,7 +59,7 @@ This project serves as a testing suite for the ASP.NET Web API CRUD operations. 
 
 ## Technologies Used
 
-- NUnit (or your preferred testing framework)
+- NUnit
 
 ## Project Structure
 
