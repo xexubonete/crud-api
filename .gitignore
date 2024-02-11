@@ -33,3 +33,6 @@ msbuild.wrn
 
 # Visual Studio 2015
 .vs/
+/ASP.NET WebApi/.vs/ASP.NET WebApi/FileContentIndex/99bf99e3-96dc-48fb-9bb9-ebdfec7d9802.vsidx
+/ASP.NET WebApi/.vs/ASP.NET WebApi/FileContentIndex/5fc2163d-a3e2-4509-8787-e89fa01bc728.vsidx
+/ASP.NET WebApi/.vs/ASP.NET WebApi/FileContentIndex/e05c5cef-be62-4bda-a138-98419d916e0f.vsidx
