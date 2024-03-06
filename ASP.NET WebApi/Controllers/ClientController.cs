@@ -8,10 +8,10 @@ namespace ASP.NET_WebApi.Controllers
     [Route("[controller]")]
     public class ClientController : Controller
     {
-        private readonly IClientRepository _clients;
-        public ClientController(IClientRepository clients)
+        private readonly IClientService _clientService;
+        public ClientController(IClientService clients)
         {
-            _clients = clients;
+            _clientService = clients;
         }
 
         /// <summary>Creates the client.</summary>
@@ -23,7 +23,7 @@ namespace ASP.NET_WebApi.Controllers
         [Route("[action]")]
         public async Task<IActionResult> CreateClient(Client client)
         {
-            var result = await _clients.CreateClient(client);
+            var result = await _clientService.CreateClient(client);
 
             if (result == null)
             {
@@ -40,7 +40,7 @@ namespace ASP.NET_WebApi.Controllers
         [HttpGet]
         public async Task<ActionResult<Client>> GetAllClients() 
         {
-            var clients = await _clients.GetAllClients();
+            var clients = await _clientService.GetAllClients();
 
             if (clients.Count() == 0)
             {
@@ -58,7 +58,7 @@ namespace ASP.NET_WebApi.Controllers
         [HttpGet("{id:guid}")]
         public async Task<IActionResult> GetClientById(Guid id) 
         {
-            var client = await _clients.GetClientById(id);
+            var client = await _clientService.GetClientById(id);
 
             if (client == null)
             {
@@ -77,7 +77,7 @@ namespace ASP.NET_WebApi.Controllers
         [Route("{Name}")]
         public async Task<IActionResult> GetClientByName(string name) 
         {
-            var client = await _clients.GetClientByName(name);
+            var client = await _clientService.GetClientByName(name);
 
             if (client.Count() == 0)
             {
@@ -95,7 +95,7 @@ namespace ASP.NET_WebApi.Controllers
         [HttpPut]
         public async Task<IActionResult> UpdateClient(Client updateClient) 
         {
-            var client = await _clients.UpdateClientById(updateClient);
+            var client = await _clientService.UpdateClientById(updateClient);
 
             if (client == null)
             {
@@ -114,7 +114,7 @@ namespace ASP.NET_WebApi.Controllers
         [Route("{id:guid}")]
         public async Task<IActionResult> DeleteClient(Guid id) 
         {
-            var client = await _clients.DeleteClientById(id);
+            var client = await _clientService.DeleteClientById(id);
 
             if (client == null)
             {
