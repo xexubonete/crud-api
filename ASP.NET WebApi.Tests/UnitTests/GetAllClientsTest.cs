@@ -2,19 +2,17 @@ using ASP.NET_WebApi.Controllers;
 using ASP.NET_WebApi.Entities;
 using ASP.NET_WebApi.Interfaces;
 using ASP.NET_WebApi.Persistence;
-using ASP.NET_WebApi.Repositories;
+using ASP.NET_WebApi.Services;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Options;
 using Microsoft.Identity.Client;
-using static System.Reflection.Metadata.BlobBuilder;
 
 namespace ASP.NET_WebApi.Tests.UnitTests;
 public class GetAllClientsTest
 {
     private ApiDbContext _context;
 
-    private IClientRepository _clients;
+    private IClientService _clients;
 
     Client client = new Client()
     {
@@ -30,7 +28,7 @@ public class GetAllClientsTest
     {
         var options = new DbContextOptionsBuilder<ApiDbContext>().UseInMemoryDatabase(databaseName: Guid.NewGuid().ToString()).Options;
         _context = new ApiDbContext(options);
-        _clients = new ClientRepository(_context);
+        _clients = new ClientService();
     }
 
     [Test]

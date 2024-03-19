@@ -3,6 +3,7 @@ using ASP.NET_WebApi.Entities;
 using ASP.NET_WebApi.Interfaces;
 using ASP.NET_WebApi.Persistence;
 using ASP.NET_WebApi.Repositories;
+using ASP.NET_WebApi.Services;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Identity.Client;
@@ -12,7 +13,7 @@ public class DeleteClientByIdTest
 {
     private ApiDbContext _context;
 
-    private IClientRepository _clients;
+    private IClientService _clients;
 
     Client client = new Client()
     {
@@ -33,7 +34,7 @@ public class DeleteClientByIdTest
     {
         var options = new DbContextOptionsBuilder<ApiDbContext>().UseInMemoryDatabase(databaseName: Guid.NewGuid().ToString()).Options;
         _context = new ApiDbContext(options);
-        _clients = new ClientRepository(_context);
+        _clients = new ClientService();
     }
 
     [Test]
