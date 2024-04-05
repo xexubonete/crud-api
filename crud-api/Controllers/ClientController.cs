@@ -21,13 +21,13 @@ namespace ASP.NET_WebApi.Controllers
         /// </returns>
         [HttpPost]
         [Route("[action]")]
-        public async Task<IActionResult> CreateClient(Client client)
+        public async Task<IActionResult> CreateClient([FromBody]Client client)
         {
             var result = await _clientService.CreateClient(client);
 
             if (result == null)
             {
-                return BadRequest();
+                return BadRequest("Cannot create a client");
             }
 
             return Ok(result);
@@ -44,7 +44,7 @@ namespace ASP.NET_WebApi.Controllers
 
             if (clients.Any())
             {
-                return BadRequest();
+                return NotFound();
             }
 
             return Ok(clients);
@@ -62,7 +62,7 @@ namespace ASP.NET_WebApi.Controllers
 
             if (client == null)
             {
-                return BadRequest();
+                return NotFound();
             }
 
             return Ok(client);
@@ -81,7 +81,7 @@ namespace ASP.NET_WebApi.Controllers
 
             if (client.Any())
             {
-                return BadRequest();
+                return NotFound();
             }
 
             return Ok(client);
@@ -93,13 +93,13 @@ namespace ASP.NET_WebApi.Controllers
         ///   <br />
         /// </returns>
         [HttpPut]
-        public async Task<IActionResult> UpdateClient(Client updateClient) 
+        public async Task<IActionResult> UpdateClient([FromBody]Client updateClient) 
         {
             var client = await _clientService.UpdateClientById(updateClient);
 
             if (client == null)
             {
-                return BadRequest();
+                return NotFound();
             }
 
             return Ok(client);
@@ -118,7 +118,7 @@ namespace ASP.NET_WebApi.Controllers
 
             if (client == null)
             {
-                return BadRequest();
+                return NotFound();
             }
 
             return Ok(client);
