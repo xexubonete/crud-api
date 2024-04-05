@@ -6,7 +6,13 @@ namespace ASP.NET_WebApi.Services
 {
     public class ClientService : IClientService
     {
-        private readonly ClientRepository _repository;
+        private readonly IClientRepository _repository;
+
+        public ClientService(IClientRepository repository)
+        {
+            _repository = repository;
+        }
+
         public Task<Client> CreateClient(Client newClient)
         {
             return _repository.CreateClient(newClient);
