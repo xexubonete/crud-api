@@ -1,6 +1,5 @@
 ﻿using ASP.NET_WebApi.Entities;
 using ASP.NET_WebApi.Interfaces;
-using ASP.NET_WebApi.Repositories;
 
 namespace ASP.NET_WebApi.Services
 {

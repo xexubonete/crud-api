@@ -1,9 +1,5 @@
-﻿using System;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Configuration;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using System.Reflection;
-
 
 namespace ASP.NET_WebApi.Persistence
 {

@@ -1,8 +1,8 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using ASP.NET_WebApi.Entities;
-using System.Reflection;
+﻿using ASP.NET_WebApi.Entities;
 using ASP.NET_WebApi.Interfaces;
+using Microsoft.EntityFrameworkCore;
+using System.Reflection;
+
 namespace ASP.NET_WebApi.Persistence
 {
     public class ApiDbContext : DbContext, IApiDbContext
