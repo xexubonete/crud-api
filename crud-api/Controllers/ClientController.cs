@@ -42,7 +42,7 @@ namespace ASP.NET_WebApi.Controllers
         {
             var clients = await _clientService.GetAllClients();
 
-            if (clients.Count() == 0)
+            if (clients.Any())
             {
                 return BadRequest();
             }
@@ -79,7 +79,7 @@ namespace ASP.NET_WebApi.Controllers
         {
             var client = await _clientService.GetClientByName(name);
 
-            if (client.Count() == 0)
+            if (client.Any())
             {
                 return BadRequest();
             }
