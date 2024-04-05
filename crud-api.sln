@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "crud-api.Test", "ASP.NET WebApi.Tests\crud-api.Test.csproj", "{593A259F-4938-42CB-BBD9-53CBE8D2AEB6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "crud-api.Test", "crud-api.Test\crud-api.Test.csproj", "{593A259F-4938-42CB-BBD9-53CBE8D2AEB6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "crud-api", "ASP.NET WebApi\crud-api.csproj", "{7087001B-7685-4992-A1FD-6040F0962A6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "crud-api", "crud-api\crud-api.csproj", "{7087001B-7685-4992-A1FD-6040F0962A6F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
