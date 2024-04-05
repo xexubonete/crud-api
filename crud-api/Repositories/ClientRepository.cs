@@ -1,12 +1,7 @@
 ﻿using ASP.NET_WebApi.Entities;
 using ASP.NET_WebApi.Interfaces;
-using ASP.NET_WebApi.Persistence;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Infrastructure;
 using OpenQA.Selenium;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace ASP.NET_WebApi.Repositories
 {
@@ -25,17 +20,24 @@ namespace ASP.NET_WebApi.Repositories
         /// </returns>
         public async Task<Client> CreateClient(Client newClient)
         {
-            var client = new Client();
+            try
+            {
+                var client = new Client();
 
-            client.Id = Guid.NewGuid();
-            client.Name = newClient.Name;
-            client.SurName = newClient.SurName;
+                client.Id = Guid.NewGuid();
+                client.Name = newClient.Name;
+                client.SurName = newClient.SurName;
 
-            _context.Clients.Add(client);
+                _context.Clients.Add(client);
 
-            await _context.SaveChangesAsync();
+                await _context.SaveChangesAsync();
 
-            return client;
+                return client;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("", ex);
+            }
         }
 
         /// <summary>Gets all clients.</summary>
@@ -44,14 +46,21 @@ namespace ASP.NET_WebApi.Repositories
         /// </returns>
         public async Task<IList<Client>> GetAllClients()
         {
-            IList<Client> clients = await _context.Clients.ToListAsync();
-
-            if (clients == null)
+            try
             {
-                throw new NotFoundException(nameof(clients));
-            }
+                IList<Client> clients = await _context.Clients.ToListAsync();
 
-            return clients;
+                if (clients == null)
+                {
+                    throw new NotFoundException(nameof(clients));
+                }
+
+                return clients;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("", ex);
+            }
         }
 
         /// <summary>Gets the client by identifier.</summary>
@@ -61,14 +70,21 @@ namespace ASP.NET_WebApi.Repositories
         /// </returns>
         public async Task<Client> GetClientById(Guid id)
         {
-            Client? client = await _context.Clients.FirstOrDefaultAsync(x => x.Id == id);
+            try
+            {
+                Client? client = await _context.Clients.FirstOrDefaultAsync(x => x.Id == id);
 
-            if (client == null) 
-            { 
-                throw new NotFoundException(nameof(client)); 
+                if (client == null)
+                {
+                    throw new NotFoundException(nameof(client));
+                }
+
+                return client;
             }
-
-            return client;
+            catch (Exception ex)
+            {
+                throw new Exception("", ex);
+            }
         }
 
         /// <summary>Gets the name of the client by.</summary>
@@ -78,14 +94,21 @@ namespace ASP.NET_WebApi.Repositories
         /// </returns>
         public async Task<IList<Client>> GetClientByName(string name)
         {
-            IList<Client> client = await _context.Clients.Where(x => x.Name == name).ToListAsync();
-
-            if (client == null)
+            try
             {
-                throw new NotFoundException(nameof(client));
-            }
+                IList<Client> client = await _context.Clients.Where(x => x.Name == name).ToListAsync();
 
-            return client;
+                if (client == null)
+                {
+                    throw new NotFoundException(nameof(client));
+                }
+
+                return client;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("", ex);
+            }
         }
 
         /// <summary>Updates the client by identifier.</summary>
@@ -95,21 +118,28 @@ namespace ASP.NET_WebApi.Repositories
         /// </returns>
         public async Task<Client> UpdateClientById (Client updateClient)
         {
-            Client? client = await _context.Clients.FirstOrDefaultAsync(x => x.Id == updateClient.Id);
-
-            if (client == null)
+            try
             {
-                throw new NotFoundException(nameof(client));
+                Client? client = await _context.Clients.FirstOrDefaultAsync(x => x.Id == updateClient.Id);
+
+                if (client == null)
+                {
+                    throw new NotFoundException(nameof(client));
+                }
+
+                client.Name = updateClient.Name;
+                client.SurName = updateClient.SurName;
+
+                _context.Clients.Update(client);
+
+                await _context.SaveChangesAsync();
+
+                return client;
             }
-
-            client.Name = updateClient.Name;
-            client.SurName = updateClient.SurName;
-
-            _context.Clients.Update(client);
-
-            await _context.SaveChangesAsync();
-
-            return client;
+            catch (Exception ex)
+            {
+                throw new Exception("", ex);
+            }
         }
 
         /// <summary>Deletes the client by identifier.</summary>
@@ -119,18 +149,25 @@ namespace ASP.NET_WebApi.Repositories
         /// </returns>
         public async Task<Client> DeleteClientById(Guid id)
         {
-            Client? client = await _context.Clients.FirstOrDefaultAsync(x => x.Id == id);
-
-            if (client == null)
+            try
             {
-                throw new NotFoundException(nameof(client));
+                Client? client = await _context.Clients.FirstOrDefaultAsync(x => x.Id == id);
+
+                if (client == null)
+                {
+                    throw new NotFoundException(nameof(client));
+                }
+
+                _context.Clients.Remove(client);
+
+                await _context.SaveChangesAsync();
+
+                return client;
             }
-
-            _context.Clients.Remove(client);
-
-            await _context.SaveChangesAsync();
-
-            return client;
+            catch (Exception ex)
+            {
+                throw new Exception("", ex);
+            }
         }
     }
 }
