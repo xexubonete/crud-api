@@ -42,7 +42,7 @@ namespace ASP.NET_WebApi.Controllers
         {
             var clients = await _clientService.GetAllClients();
 
-            if (clients.Any())
+            if (!clients.Any())
             {
                 return NotFound();
             }
