@@ -28,8 +28,7 @@ namespace crudapi.Tests.Services
         public async void ClientService_CreateClient_Should_Return_New_Client()
         {
             // Given
-            clientRepositoryMock.Setup(x => x.CreateClient(It.IsAny<Client>()))
-                                  .Returns((Client client) => Task.FromResult(client));
+            clientRepositoryMock.Setup(x => x.CreateClient(It.IsAny<Client>())).Returns((Client client) => Task.FromResult(client));
             clientService = new ClientService(clientRepositoryMock.Object);
 
             // When
