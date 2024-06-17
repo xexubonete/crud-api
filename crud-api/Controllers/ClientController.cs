@@ -6,13 +6,9 @@ namespace ASP.NET_WebApi.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class ClientController : Controller
+    public class ClientController(IClientService clients) : Controller
     {
-        private readonly IClientService _clientService;
-        public ClientController(IClientService clients)
-        {
-            _clientService = clients;
-        }
+        private readonly IClientService _clientService = clients;
 
         /// <summary>Creates the client.</summary>
         /// <param name="client">The client.</param>

@@ -3,14 +3,9 @@ using ASP.NET_WebApi.Interfaces;
 
 namespace ASP.NET_WebApi.Services
 {
-    public class ClientService : IClientService
+    public class ClientService(IClientRepository repository) : IClientService
     {
-        private readonly IClientRepository _repository;
-
-        public ClientService(IClientRepository repository)
-        {
-            _repository = repository;
-        }
+        private readonly IClientRepository _repository = repository;
 
         public async Task<Client> CreateClient(Client newClient)
         {

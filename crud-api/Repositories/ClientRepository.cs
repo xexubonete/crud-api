@@ -5,14 +5,10 @@ using OpenQA.Selenium;
 
 namespace ASP.NET_WebApi.Repositories
 {
-    public class ClientRepository : IClientRepository
+    public class ClientRepository(IApiDbContext context) : IClientRepository
     {
-        private readonly IApiDbContext _context;
-        public ClientRepository(IApiDbContext context) 
-        {
-            _context = context;
-        }
-
+        private readonly IApiDbContext _context = context;
+        
         /// <summary>Creates the client.</summary>
         /// <param name="newClient">The new client.</param>
         /// <returns>
