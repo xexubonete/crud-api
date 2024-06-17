@@ -12,29 +12,29 @@ namespace ASP.NET_WebApi.Services
             _repository = repository;
         }
 
-        public Task<Client> CreateClient(Client newClient)
+        public async Task<Client> CreateClient(Client newClient)
         {
-            return _repository.CreateClient(newClient);
+            return await _repository.CreateClient(newClient);
         }
 
-        public Task<Client> DeleteClientById(Guid id)
+        public async Task<Client> DeleteClientById(Guid id)
         {
-            return _repository.DeleteClientById(id);
+            return await _repository.DeleteClientById(id);
         }
 
-        public Task<IList<Client>> GetAllClients()
+        public async Task<IList<Client>> GetAllClients()
         {
-            return _repository.GetAllClients();
+            return await _repository.GetAllClients();
         }
 
-        public Task<Client> GetClientById(Guid id)
+        public async Task<Client> GetClientById(Guid id)
         {
-            return _repository.GetClientById(id);
+            return await _repository.GetClientById(id);
         }
 
-        public Task<IList<Client>> GetClientByName(string name)
+        public async Task<IList<Client>> GetClientByName(string name)
         {
-            return _repository.GetClientByName(name);
+            return await _repository.GetClientByName(name);
         }
 
         public Task<Client> UpdateClientById(Client updateClient)
