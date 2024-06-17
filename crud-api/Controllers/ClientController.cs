@@ -38,7 +38,7 @@ namespace ASP.NET_WebApi.Controllers
         ///   <br />
         /// </returns>
         [HttpGet]
-        public async Task<ActionResult<Client>> GetAllClients() 
+        public async Task<ActionResult<IList<Client>>> GetAllClients() 
         {
             var clients = await _clientService.GetAllClients();
 
@@ -79,7 +79,7 @@ namespace ASP.NET_WebApi.Controllers
         {
             var client = await _clientService.GetClientByName(name);
 
-            if (client.Any())
+            if (!client.Any())
             {
                 return NotFound();
             }
@@ -112,7 +112,7 @@ namespace ASP.NET_WebApi.Controllers
         /// </returns>
         [HttpDelete]
         [Route("{id:guid}")]
-        public async Task<IActionResult> DeleteClient(Guid id) 
+        public async Task<IActionResult> DeleteClientById(Guid id) 
         {
             var client = await _clientService.DeleteClientById(id);
 
