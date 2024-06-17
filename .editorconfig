@@ -1,0 +1,7 @@
+[*.cs]
+
+# CS8604: Posible argumento de referencia nulo
+dotnet_diagnostic.CS8604.severity = silent
+
+# CS8619: La nulabilidad de los tipos de referencia del valor no coincide con el tipo de destino
+dotnet_diagnostic.CS8619.severity = silent
