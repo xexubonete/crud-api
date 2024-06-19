@@ -4,7 +4,7 @@ using ASP.NET_WebApi.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Moq;
 
-namespace ClienRepositoryTests
+namespace crudapi.Tests.Repository
 {
     public class ClientRepositoryTests
     {
