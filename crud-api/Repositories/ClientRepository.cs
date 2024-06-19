@@ -44,7 +44,7 @@ namespace ASP.NET_WebApi.Repositories
         {
             try
             {
-                IList<Client> clients = await _context.Clients.ToListAsync();
+                var clients = await _context.Clients.ToListAsync();
 
                 if (clients == null)
                 {
