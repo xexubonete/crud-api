@@ -4,7 +4,7 @@ using ASP.NET_WebApi.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
 
-namespace ClientControllerTests
+namespace crudapi.Tests.Controllers
 {
     public class ClientControllerTests
     {
