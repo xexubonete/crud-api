@@ -83,6 +83,7 @@ namespace crudapi.Tests.Controllers
         [Fact]
         public async void ClientController_GetClientById_Should_Return_NotFound()
         {
+            // Given
             clientServiceMock.Setup(x => x.GetClientById(It.IsAny<Guid>())).Returns(() => Task.FromResult(clientTestEmpty));
             // When
             var result = await clientController.GetClientById(clientTest.Id);
@@ -92,6 +93,7 @@ namespace crudapi.Tests.Controllers
         [Fact]
         public async void ClientController_GetClientByName_Should_Return_Client_By_Name()
         {
+            // Given
             clientServiceMock.Setup(x => x.GetClientByName(It.IsAny<string>())).Returns(() => Task.FromResult(clientsTest));
             // When
             var result = await clientController.GetClientByName(It.IsAny<string>());
@@ -101,6 +103,7 @@ namespace crudapi.Tests.Controllers
         [Fact]
         public async void ClientController_GetClientByName_Should_Return_NotFound()
         {
+            // Given
             clientServiceMock.Setup(x => x.GetClientByName(It.IsAny<string>())).Returns(() => Task.FromResult(clientsTestEmpty));
             // When
             var result = await clientController.GetClientByName(It.IsAny<string>());
@@ -110,6 +113,7 @@ namespace crudapi.Tests.Controllers
         [Fact]
         public async void ClientController_UpdateClient_Should_Return_Updated_Client()
         {
+            // Given
             clientServiceMock.Setup(x => x.UpdateClientById(It.IsAny<Client>())).Returns(() => Task.FromResult(clientTest));
             // When
             var result = await clientController.UpdateClient(It.IsAny<Client>());
@@ -119,6 +123,7 @@ namespace crudapi.Tests.Controllers
         [Fact]
         public async void ClientController_UpdateClient_Should_Return_NotFound()
         {
+            // Given
             clientServiceMock.Setup(x => x.UpdateClientById(It.IsAny<Client>())).Returns(() => Task.FromResult(clientTestEmpty));
             // When
             var result = await clientController.UpdateClient(It.IsAny<Client>());
@@ -128,6 +133,7 @@ namespace crudapi.Tests.Controllers
         [Fact]
         public async void ClientController_DeleteClientById_Should_Return_Deleted_Client()
         {
+            // Given
             clientServiceMock.Setup(x => x.DeleteClientById(It.IsAny<Guid>())).Returns(() => Task.FromResult(clientTest));
             // When
             var result = await clientController.DeleteClientById(It.IsAny<Guid>());
@@ -137,6 +143,7 @@ namespace crudapi.Tests.Controllers
         [Fact]
         public async void ClientController_DeleteClient_Should_Return_NotFound()
         {
+            // Given
             clientServiceMock.Setup(x => x.DeleteClientById(It.IsAny<Guid>())).Returns(() => Task.FromResult(clientTestEmpty));
             // When
             var result = await clientController.DeleteClientById(It.IsAny<Guid>());

@@ -26,11 +26,6 @@ namespace crudapi.Tests.Repository
                 SurName = String.Empty
             };
             clients = new List<Client> { client };
-
-            // dbClients.As<IQueryable<Client>>().Setup(m => m.Provider).Returns(clients.Provider);
-            // dbClients.As<IQueryable<Client>>().Setup(m => m.Expression).Returns(clients.Expression);
-            // dbClients.As<IQueryable<Client>>().Setup(m => m.ElementType).Returns(clients.ElementType);
-            // dbClients.As<IQueryable<Client>>().Setup(m => m.GetEnumerator()).Returns(clients.GetEnumerator());
         }
         [Fact]
         public async void ClientRepository_CreateClient_Should_Return_New_Client()

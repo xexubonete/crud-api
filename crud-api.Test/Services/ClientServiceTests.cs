@@ -11,7 +11,6 @@ namespace crudapi.Tests.Services
         private readonly Mock<IClientRepository> clientRepositoryMock;
         Client client;
         IList<Client> clients;
-        
         public ClientServiceTests()
         {
             clientRepositoryMock = new Mock<IClientRepository>();
@@ -30,7 +29,6 @@ namespace crudapi.Tests.Services
             // Given
             clientRepositoryMock.Setup(x => x.CreateClient(It.IsAny<Client>())).Returns((Client client) => Task.FromResult(client));
             clientService = new ClientService(clientRepositoryMock.Object);
-
             // When
             var result = await clientService.CreateClient(client);
             // Then
@@ -43,7 +41,6 @@ namespace crudapi.Tests.Services
             // Given
             clientRepositoryMock.Setup(x => x.GetAllClients()).Returns(() => Task.FromResult(clients));
             clientService = new ClientService(clientRepositoryMock.Object);
-
             // When
             await clientService.GetAllClients();
             // Then
@@ -56,7 +53,6 @@ namespace crudapi.Tests.Services
             // Given
             clientRepositoryMock.Setup(x => x.GetClientById(client.Id)).Returns((Guid id) => Task.FromResult(client));
             clientService = new ClientService(clientRepositoryMock.Object);
-
             // When
             var result = await clientService.GetClientById(client.Id);
             // Then
@@ -69,7 +65,6 @@ namespace crudapi.Tests.Services
             // Given
             clientRepositoryMock.Setup(x => x.GetClientByName(It.IsAny<string>())).Returns((string name) => Task.FromResult(clients));
             clientService = new ClientService(clientRepositoryMock.Object);
-
             // When
             var result = await clientService.GetClientByName(It.IsAny<string>());
             // Then
@@ -82,7 +77,6 @@ namespace crudapi.Tests.Services
             // Given
             clientRepositoryMock.Setup(x => x.UpdateClientById(It.IsAny<Client>())).Returns(Task.FromResult<Client>);
             clientService = new ClientService(clientRepositoryMock.Object);
-
             // When
             await clientService.UpdateClientById(client);
             // Then
@@ -95,7 +89,6 @@ namespace crudapi.Tests.Services
             // Given
             clientRepositoryMock.Setup(x => x.DeleteClientById(client.Id)).Returns((Guid id) => Task.FromResult(client));
             clientService = new ClientService(clientRepositoryMock.Object);
-
             // When
             await clientService.DeleteClientById(client.Id);
             // Then
