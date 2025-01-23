@@ -1,8 +1,8 @@
-# CRUD API with ASP.NET Core
+# 🚀 CRUD API
 
 A simple REST API that implements CRUD (Create, Read, Update, Delete) operations using ASP.NET Core and Entity Framework Core.
 
-## 🚀 Features
+## 👨🏻‍⚖️ Features
 
 - Complete CRUD operations for Client entity
 - Layered architecture (Controllers, Services, Repositories)
