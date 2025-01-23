@@ -31,7 +31,7 @@ A simple REST API that implements CRUD (Create, Read, Update, Delete) operations
 
 1. Clone the repository
 ```
-git clone https://github.com/your-username/crud-api.git
+git clone https://github.com/xexubonete/crud-api.git
 ```
 2. Open the solution in Visual Studio 2022 or VS Code
 3. Restore NuGet packages
@@ -41,7 +41,7 @@ dotnet run --project crud-api
 ```
 ## 🔍 Project Structure
 
-````
+```
 ├── LICENSE
 ├── README.md
 ├── crud-api
